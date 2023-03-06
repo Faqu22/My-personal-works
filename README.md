@@ -6,7 +6,8 @@
 Para instalar Neovim en tu sistema operativo, sigue las instrucciones en la documentación oficial de Neovim o escribe "sudo apt-get install neovim".
 
 	*Descargar init.vim
-Para descargarlo utiliza "wget https://github.com/Faqu22/My-personal-works/edit/master/README.md" en la carpeta ~/.config/nvim/
+Para descargarlo utiliza "wget https://raw.githubusercontent.com/Faqu22/My-personal-works/master/init.vim -O ~/.config/nvim/init.vim
+", con tal comando lo guarda directamente en ~/.config/nvim/
 Es importante que guardes el archivo init.vim en la ruta ~/.config/nvim/init.vim para que Neovim pueda leerlo correctamente. Si ya tienes un archivo init.vim en esa ruta, reemplazalo por mi archivo init.vim.
 
 	*Instalación de Plugins
